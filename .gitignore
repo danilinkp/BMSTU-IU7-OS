@@ -1,2 +1,7 @@
 .vscode
 *synctex.gz
+.idea
+*.exe
+*.out
+*.bbl*
+*.aux
