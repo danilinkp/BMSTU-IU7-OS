@@ -1,0 +1,866 @@
+[Process Memory Pages]
+
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 4 r---- server
+00005620469bc000 1 1 4 r-x-- server
+00005620469bd000 1 1 4 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     132
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 0 r---- server
+00005620469bc000 1 1 0 r-x-- server
+00005620469bd000 1 1 0 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     120
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 0 r---- server
+00005620469bc000 1 1 0 r-x-- server
+00005620469bd000 1 1 0 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     120
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 0 r---- server
+00005620469bc000 1 1 0 r-x-- server
+00005620469bd000 1 1 0 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     120
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 0 r---- server
+00005620469bc000 1 1 0 r-x-- server
+00005620469bd000 1 1 0 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     120
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 0 r---- server
+00005620469bc000 1 1 0 r-x-- server
+00005620469bd000 1 1 0 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     120
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 0 r---- server
+00005620469bc000 1 1 0 r-x-- server
+00005620469bd000 1 1 0 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     120
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 0 r---- server
+00005620469bc000 1 1 0 r-x-- server
+00005620469bd000 1 1 0 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     120
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 0 r---- server
+00005620469bc000 1 1 0 r-x-- server
+00005620469bd000 1 1 0 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     120
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 0 r---- server
+00005620469bc000 1 1 0 r-x-- server
+00005620469bd000 1 1 0 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     120
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 0 r---- server
+00005620469bc000 1 1 0 r-x-- server
+00005620469bd000 1 1 0 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     120
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 0 r---- server
+00005620469bc000 1 1 0 r-x-- server
+00005620469bd000 1 1 0 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     120
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 0 r---- server
+00005620469bc000 1 1 0 r-x-- server
+00005620469bd000 1 1 0 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     120
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 0 r---- server
+00005620469bc000 1 1 0 r-x-- server
+00005620469bd000 1 1 0 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     120
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 0 r---- server
+00005620469bc000 1 1 0 r-x-- server
+00005620469bd000 1 1 0 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     120
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 0 r---- server
+00005620469bc000 1 1 0 r-x-- server
+00005620469bd000 1 1 0 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     120
+Address           Pages     RSS   Dirty Mode  Mapping
+00005620469bb000 1 1 0 r---- server
+00005620469bc000 1 1 0 r-x-- server
+00005620469bd000 1 1 0 r---- server
+00005620469be000 1 1 4 r---- server
+00005620469bf000 1 1 4 rw--- server
+000056206c7e1000 33 1 4 rw--- [ anon ]
+00007fc768000000 34 2 8 rw--- [ anon ]
+00007fc768022000 16350 0 0 ----- [ anon ]
+00007fc76e1fe000 4098 4 16 rw--- [ anon ]
+00007fc76f200000 36 36 0 r---- libc.so.6
+00007fc76f224000 369 291 0 r-x-- libc.so.6
+00007fc76f395000 111 32 0 r---- libc.so.6
+00007fc76f404000 4 4 16 r---- libc.so.6
+00007fc76f408000 2 2 8 rw--- libc.so.6
+00007fc76f40a000 8 5 20 rw--- [ anon ]
+00007fc76f5e3000 5 3 12 rw--- [ anon ]
+00007fc76f622000 4 0 0 r---- [ anon ]
+00007fc76f626000 2 0 0 r---- [ anon ]
+00007fc76f628000 2 2 0 r-x-- [ anon ]
+00007fc76f62a000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fc76f62b000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fc76f655000 14 14 0 r---- ld-linux-x86-64.so.2
+00007fc76f663000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fc76f665000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fc76f666000 1 1 4 rw--- [ anon ]
+00007ffd615d1000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           84632    1804     120
+Address           Pages     RSS   Dirty Mode  Mapping
+0000565135a5e000 1 1 0 r---- server
+0000565135a5f000 1 1 0 r-x-- server
+0000565135a60000 1 1 0 r---- server
+0000565135a61000 1 1 4 r---- server
+0000565135a62000 1 1 4 rw--- server
+0000565155dd5000 33 2 8 rw--- [ anon ]
+00007f502f9f7000 18441 18 72 rw--- [ anon ]
+00007f5034200000 36 36 0 r---- libc.so.6
+00007f5034224000 369 275 0 r-x-- libc.so.6
+00007f5034395000 111 32 0 r---- libc.so.6
+00007f5034404000 4 4 16 r---- libc.so.6
+00007f5034408000 2 2 8 rw--- libc.so.6
+00007f503440a000 8 5 20 rw--- [ anon ]
+00007f503447e000 5 3 12 rw--- [ anon ]
+00007f50344bd000 4 0 0 r---- [ anon ]
+00007f50344c1000 2 0 0 r---- [ anon ]
+00007f50344c3000 2 2 0 r-x-- [ anon ]
+00007f50344c5000 1 1 0 r---- ld-linux-x86-64.so.2
+00007f50344c6000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007f50344f0000 14 14 0 r---- ld-linux-x86-64.so.2
+00007f50344fe000 2 2 8 r---- ld-linux-x86-64.so.2
+00007f5034500000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007f5034501000 1 1 4 rw--- [ anon ]
+00007ffe54d0f000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           76468    1792     172
+Address           Pages     RSS   Dirty Mode  Mapping
+0000565135a5e000 1 1 0 r---- server
+0000565135a5f000 1 1 0 r-x-- server
+0000565135a60000 1 1 0 r---- server
+0000565135a61000 1 1 4 r---- server
+0000565135a62000 1 1 4 rw--- server
+0000565155dd5000 33 3 12 rw--- [ anon ]
+00007f50279e7000 51225 50 200 rw--- [ anon ]
+00007f5034200000 36 36 0 r---- libc.so.6
+00007f5034224000 369 275 0 r-x-- libc.so.6
+00007f5034395000 111 32 0 r---- libc.so.6
+00007f5034404000 4 4 16 r---- libc.so.6
+00007f5034408000 2 2 8 rw--- libc.so.6
+00007f503440a000 8 5 20 rw--- [ anon ]
+00007f503447e000 5 3 12 rw--- [ anon ]
+00007f50344bd000 4 0 0 r---- [ anon ]
+00007f50344c1000 2 0 0 r---- [ anon ]
+00007f50344c3000 2 2 0 r-x-- [ anon ]
+00007f50344c5000 1 1 0 r---- ld-linux-x86-64.so.2
+00007f50344c6000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007f50344f0000 14 14 0 r---- ld-linux-x86-64.so.2
+00007f50344fe000 2 2 8 r---- ld-linux-x86-64.so.2
+00007f5034500000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007f5034501000 1 1 4 rw--- [ anon ]
+00007ffe54d0f000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB          207604    1924     304
+Address           Pages     RSS   Dirty Mode  Mapping
+0000565135a5e000 1 1 0 r---- server
+0000565135a5f000 1 1 0 r-x-- server
+0000565135a60000 1 1 0 r---- server
+0000565135a61000 1 1 4 r---- server
+0000565135a62000 1 1 4 rw--- server
+0000565155dd5000 33 3 12 rw--- [ anon ]
+00007f50279e7000 51225 50 200 rw--- [ anon ]
+00007f5034200000 36 36 0 r---- libc.so.6
+00007f5034224000 369 275 0 r-x-- libc.so.6
+00007f5034395000 111 32 0 r---- libc.so.6
+00007f5034404000 4 4 16 r---- libc.so.6
+00007f5034408000 2 2 8 rw--- libc.so.6
+00007f503440a000 8 5 20 rw--- [ anon ]
+00007f503447e000 5 3 12 rw--- [ anon ]
+00007f50344bd000 4 0 0 r---- [ anon ]
+00007f50344c1000 2 0 0 r---- [ anon ]
+00007f50344c3000 2 2 0 r-x-- [ anon ]
+00007f50344c5000 1 1 0 r---- ld-linux-x86-64.so.2
+00007f50344c6000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007f50344f0000 14 14 0 r---- ld-linux-x86-64.so.2
+00007f50344fe000 2 2 8 r---- ld-linux-x86-64.so.2
+00007f5034500000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007f5034501000 1 1 4 rw--- [ anon ]
+00007ffe54d0f000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB          207604    1924     304
+Address           Pages     RSS   Dirty Mode  Mapping
+0000565135a5e000 1 1 0 r---- server
+0000565135a5f000 1 1 0 r-x-- server
+0000565135a60000 1 1 0 r---- server
+0000565135a61000 1 1 4 r---- server
+0000565135a62000 1 1 4 rw--- server
+0000565155dd5000 33 3 12 rw--- [ anon ]
+00007f50279e7000 51225 50 200 rw--- [ anon ]
+00007f5034200000 36 36 0 r---- libc.so.6
+00007f5034224000 369 275 0 r-x-- libc.so.6
+00007f5034395000 111 32 0 r---- libc.so.6
+00007f5034404000 4 4 16 r---- libc.so.6
+00007f5034408000 2 2 8 rw--- libc.so.6
+00007f503440a000 8 5 20 rw--- [ anon ]
+00007f503447e000 5 3 12 rw--- [ anon ]
+00007f50344bd000 4 0 0 r---- [ anon ]
+00007f50344c1000 2 0 0 r---- [ anon ]
+00007f50344c3000 2 2 0 r-x-- [ anon ]
+00007f50344c5000 1 1 0 r---- ld-linux-x86-64.so.2
+00007f50344c6000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007f50344f0000 14 14 0 r---- ld-linux-x86-64.so.2
+00007f50344fe000 2 2 8 r---- ld-linux-x86-64.so.2
+00007f5034500000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007f5034501000 1 1 4 rw--- [ anon ]
+00007ffe54d0f000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB          207604    1924     304
+Address           Pages     RSS   Dirty Mode  Mapping
+0000558cd5523000 1 1 0 r---- server
+0000558cd5524000 1 1 0 r-x-- server
+0000558cd5525000 1 1 0 r---- server
+0000558cd5526000 1 1 4 r---- server
+0000558cd5527000 1 1 4 rw--- server
+0000558d01ca5000 33 2 8 rw--- [ anon ]
+00007fa84b9ee000 36882 36 144 rw--- [ anon ]
+00007fa854a00000 36 36 0 r---- libc.so.6
+00007fa854a24000 369 275 0 r-x-- libc.so.6
+00007fa854b95000 111 32 0 r---- libc.so.6
+00007fa854c04000 4 4 16 r---- libc.so.6
+00007fa854c08000 2 2 8 rw--- libc.so.6
+00007fa854c0a000 8 5 20 rw--- [ anon ]
+00007fa854d82000 5 3 12 rw--- [ anon ]
+00007fa854dc1000 4 0 0 r---- [ anon ]
+00007fa854dc5000 2 0 0 r---- [ anon ]
+00007fa854dc7000 2 2 0 r-x-- [ anon ]
+00007fa854dc9000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fa854dca000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fa854df4000 14 12 0 r---- ld-linux-x86-64.so.2
+00007fa854e02000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fa854e04000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fa854e05000 1 1 4 rw--- [ anon ]
+00007ffd539a7000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB          150232    1856     244
+Address           Pages     RSS   Dirty Mode  Mapping
+000055ed71787000 1 1 0 r---- server
+000055ed71788000 1 1 0 r-x-- server
+000055ed71789000 1 1 0 r---- server
+000055ed7178a000 1 1 4 r---- server
+000055ed7178b000 1 1 4 rw--- server
+000055ed918d4000 33 2 8 rw--- [ anon ]
+00007f0ed9ff8000 16392 16 64 rw--- [ anon ]
+00007f0ede000000 36 36 0 r---- libc.so.6
+00007f0ede024000 369 275 0 r-x-- libc.so.6
+00007f0ede195000 111 32 0 r---- libc.so.6
+00007f0ede204000 4 4 16 r---- libc.so.6
+00007f0ede208000 2 2 8 rw--- libc.so.6
+00007f0ede20a000 8 5 20 rw--- [ anon ]
+00007f0ede39d000 5 3 12 rw--- [ anon ]
+00007f0ede3dc000 4 0 0 r---- [ anon ]
+00007f0ede3e0000 2 0 0 r---- [ anon ]
+00007f0ede3e2000 2 2 0 r-x-- [ anon ]
+00007f0ede3e4000 1 1 0 r---- ld-linux-x86-64.so.2
+00007f0ede3e5000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007f0ede40f000 14 14 0 r---- ld-linux-x86-64.so.2
+00007f0ede41d000 2 2 8 r---- ld-linux-x86-64.so.2
+00007f0ede41f000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007f0ede420000 1 1 4 rw--- [ anon ]
+00007ffda47f2000 33 4 16 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           68272    1788     168
+Address           Pages     RSS   Dirty Mode  Mapping
+0000556f9d35e000 1 1 0 r---- server
+0000556f9d35f000 1 1 0 r-x-- server
+0000556f9d360000 1 1 0 r---- server
+0000556f9d361000 1 1 4 r---- server
+0000556f9d362000 1 1 4 rw--- server
+0000556fcd257000 33 2 8 rw--- [ anon ]
+00007fb062486000 43029 42 168 rw--- [ anon ]
+00007fb06cc9b000 3 2 8 rw--- [ anon ]
+00007fb06cc9e000 36 36 0 r---- libc.so.6
+00007fb06ccc2000 369 278 0 r-x-- libc.so.6
+00007fb06ce33000 78 35 0 r---- libc.so.6
+00007fb06ce81000 4 4 16 r---- libc.so.6
+00007fb06ce85000 2 2 8 rw--- libc.so.6
+00007fb06ce87000 10 6 24 rw--- [ anon ]
+00007fb06cecd000 4 0 0 r---- [ anon ]
+00007fb06ced1000 2 0 0 r---- [ anon ]
+00007fb06ced3000 2 2 0 r-x-- [ anon ]
+00007fb06ced5000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fb06ced6000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fb06cf00000 11 11 0 r---- ld-linux-x86-64.so.2
+00007fb06cf0b000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fb06cf0d000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fb06cf0e000 1 1 4 rw--- [ anon ]
+00007fff166f4000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB          174676    1900     268
+Address           Pages     RSS   Dirty Mode  Mapping
+0000556f9d35e000 1 1 0 r---- server
+0000556f9d35f000 1 1 0 r-x-- server
+0000556f9d360000 1 1 0 r---- server
+0000556f9d361000 1 1 4 r---- server
+0000556f9d362000 1 1 4 rw--- server
+0000556fcd257000 33 3 12 rw--- [ anon ]
+00007fb05d47c000 63519 62 248 rw--- [ anon ]
+00007fb06cc9b000 3 2 8 rw--- [ anon ]
+00007fb06cc9e000 36 36 0 r---- libc.so.6
+00007fb06ccc2000 369 278 0 r-x-- libc.so.6
+00007fb06ce33000 78 35 0 r---- libc.so.6
+00007fb06ce81000 4 4 16 r---- libc.so.6
+00007fb06ce85000 2 2 8 rw--- libc.so.6
+00007fb06ce87000 10 6 24 rw--- [ anon ]
+00007fb06cecd000 4 0 0 r---- [ anon ]
+00007fb06ced1000 2 0 0 r---- [ anon ]
+00007fb06ced3000 2 2 0 r-x-- [ anon ]
+00007fb06ced5000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fb06ced6000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fb06cf00000 11 11 0 r---- ld-linux-x86-64.so.2
+00007fb06cf0b000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fb06cf0d000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fb06cf0e000 1 1 4 rw--- [ anon ]
+00007fff166f4000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB          256636    1984     352
+Address           Pages     RSS   Dirty Mode  Mapping
+00005650ebf15000 1 1 0 r---- server
+00005650ebf16000 1 1 0 r-x-- server
+00005650ebf17000 1 1 0 r---- server
+00005650ebf18000 1 1 4 r---- server
+00005650ebf19000 1 1 4 rw--- server
+00005650ff85f000 33 2 8 rw--- [ anon ]
+00007fee1c981000 49176 48 192 rw--- [ anon ]
+00007fee28999000 3 2 8 rw--- [ anon ]
+00007fee2899c000 36 36 0 r---- libc.so.6
+00007fee289c0000 369 296 0 r-x-- libc.so.6
+00007fee28b31000 78 47 0 r---- libc.so.6
+00007fee28b7f000 4 4 16 r---- libc.so.6
+00007fee28b83000 2 2 8 rw--- libc.so.6
+00007fee28b85000 10 6 24 rw--- [ anon ]
+00007fee28bcb000 4 0 0 r---- [ anon ]
+00007fee28bcf000 2 0 0 r---- [ anon ]
+00007fee28bd1000 2 2 0 r-x-- [ anon ]
+00007fee28bd3000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fee28bd4000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fee28bfe000 11 11 0 r---- ld-linux-x86-64.so.2
+00007fee28c09000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fee28c0b000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fee28c0c000 1 1 4 rw--- [ anon ]
+00007ffd142b6000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB          199264    2044     292
+Address           Pages     RSS   Dirty Mode  Mapping
+000055c2adee2000 1 1 0 r---- server
+000055c2adee3000 1 1 0 r-x-- server
+000055c2adee4000 1 1 0 r---- server
+000055c2adee5000 1 1 4 r---- server
+000055c2adee6000 1 1 4 rw--- server
+000055c2b70cd000 33 2 8 rw--- [ anon ]
+00007fbb481ed000 50 50 200 rw--- [ anon ]
+00007fbb4821f000 2049 2 8 rw--- [ anon ]
+00007fbb48a20000 50 50 200 rw--- [ anon ]
+00007fbb48a52000 2049 2 8 rw--- [ anon ]
+00007fbb49253000 50 50 200 rw--- [ anon ]
+00007fbb49285000 2049 2 8 rw--- [ anon ]
+00007fbb49a86000 50 50 200 rw--- [ anon ]
+00007fbb49ab8000 2049 2 8 rw--- [ anon ]
+00007fbb4a2b9000 50 50 200 rw--- [ anon ]
+00007fbb4a2eb000 2049 2 8 rw--- [ anon ]
+00007fbb4aaec000 50 50 200 rw--- [ anon ]
+00007fbb4ab1e000 2049 2 8 rw--- [ anon ]
+00007fbb4b31f000 50 50 200 rw--- [ anon ]
+00007fbb4b351000 2049 2 8 rw--- [ anon ]
+00007fbb4bb52000 50 50 200 rw--- [ anon ]
+00007fbb4bb84000 2049 2 8 rw--- [ anon ]
+00007fbb4c385000 50 50 200 rw--- [ anon ]
+00007fbb4c3b7000 2049 2 8 rw--- [ anon ]
+00007fbb4cbb8000 50 50 200 rw--- [ anon ]
+00007fbb4cbea000 2049 2 8 rw--- [ anon ]
+00007fbb4d3eb000 50 50 200 rw--- [ anon ]
+00007fbb4d41d000 2049 2 8 rw--- [ anon ]
+00007fbb4dc1e000 50 50 200 rw--- [ anon ]
+00007fbb4dc50000 2049 2 8 rw--- [ anon ]
+00007fbb4e451000 50 50 200 rw--- [ anon ]
+00007fbb4e483000 2049 2 8 rw--- [ anon ]
+00007fbb4ec84000 50 50 200 rw--- [ anon ]
+00007fbb4ecb6000 2049 2 8 rw--- [ anon ]
+00007fbb4f4b7000 50 50 200 rw--- [ anon ]
+00007fbb4f4e9000 2049 2 8 rw--- [ anon ]
+00007fbb4fcea000 50 50 200 rw--- [ anon ]
+00007fbb4fd1c000 2049 2 8 rw--- [ anon ]
+00007fbb5051d000 40 40 160 rw--- [ anon ]
+00007fbb50545000 4098 5 20 rw--- [ anon ]
+00007fbb51547000 3 2 8 rw--- [ anon ]
+00007fbb5154a000 36 36 0 r---- libc.so.6
+00007fbb5156e000 369 297 0 r-x-- libc.so.6
+00007fbb516df000 78 47 0 r---- libc.so.6
+00007fbb5172d000 4 4 16 r---- libc.so.6
+00007fbb51731000 2 2 8 rw--- libc.so.6
+00007fbb51733000 11 7 28 rw--- [ anon ]
+00007fbb5173e000 59 59 236 rw--- [ anon ]
+00007fbb51779000 4 0 0 r---- [ anon ]
+00007fbb5177d000 2 0 0 r---- [ anon ]
+00007fbb5177f000 2 2 0 r-x-- [ anon ]
+00007fbb51781000 1 1 0 r---- ld-linux-x86-64.so.2
+00007fbb51782000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007fbb517ac000 11 11 0 r---- ld-linux-x86-64.so.2
+00007fbb517b7000 2 2 8 r---- ld-linux-x86-64.so.2
+00007fbb517b9000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007fbb517ba000 1 1 4 rw--- [ anon ]
+00007ffe7c38d000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB          153688    5604    3848
+Address           Pages     RSS   Dirty Mode  Mapping
+00005603b7657000 1 1 0 r---- server
+00005603b7658000 1 1 0 r-x-- server
+00005603b7659000 1 1 0 r---- server
+00005603b765a000 1 1 4 r---- server
+00005603b765b000 1 1 4 rw--- server
+00005603cc9db000 33 1 4 rw--- [ anon ]
+00007f0e40a9f000 50 50 200 rw--- [ anon ]
+00007f0e40ad1000 2049 2 8 rw--- [ anon ]
+00007f0e412d2000 50 50 200 rw--- [ anon ]
+00007f0e41304000 2049 2 8 rw--- [ anon ]
+00007f0e41b05000 50 50 200 rw--- [ anon ]
+00007f0e41b37000 2049 2 8 rw--- [ anon ]
+00007f0e42338000 50 50 200 rw--- [ anon ]
+00007f0e4236a000 2049 2 8 rw--- [ anon ]
+00007f0e42b6b000 50 50 200 rw--- [ anon ]
+00007f0e42b9d000 2049 2 8 rw--- [ anon ]
+00007f0e4339e000 40 40 160 rw--- [ anon ]
+00007f0e433c6000 4098 5 20 rw--- [ anon ]
+00007f0e443c8000 3 2 8 rw--- [ anon ]
+00007f0e443cb000 36 36 0 r---- libc.so.6
+00007f0e443ef000 369 297 0 r-x-- libc.so.6
+00007f0e44560000 78 49 0 r---- libc.so.6
+00007f0e445ae000 4 4 16 r---- libc.so.6
+00007f0e445b2000 2 2 8 rw--- libc.so.6
+00007f0e445b4000 11 7 28 rw--- [ anon ]
+00007f0e445bf000 59 59 236 rw--- [ anon ]
+00007f0e445fa000 4 0 0 r---- [ anon ]
+00007f0e445fe000 2 0 0 r---- [ anon ]
+00007f0e44600000 2 2 0 r-x-- [ anon ]
+00007f0e44602000 1 1 0 r---- ld-linux-x86-64.so.2
+00007f0e44603000 42 42 0 r-x-- ld-linux-x86-64.so.2
+00007f0e4462d000 11 11 0 r---- ld-linux-x86-64.so.2
+00007f0e44638000 2 2 8 r---- ld-linux-x86-64.so.2
+00007f0e4463a000 1 1 4 rw--- ld-linux-x86-64.so.2
+00007f0e4463b000 1 1 4 rw--- [ anon ]
+00007ffef1b7a000 33 3 12 rw--- [ stack ]
+ffffffffff600000 1 0 0 --x-- [ anon ]
+---------------- ------- ------- ------- 
+total kB           61332    3320    1556

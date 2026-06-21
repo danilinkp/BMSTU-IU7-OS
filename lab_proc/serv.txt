@@ -1,0 +1,208 @@
+[Process Environment Variables]
+GDMSESSION=gnome
+LC_MEASUREMENT=ru_RU.UTF-8
+LC_NUMERIC=ru_RU.UTF-8
+XDG_SESSION_TYPE=wayland
+SHLVL=1
+GNOME_SETUP_DISPLAY=:1
+MAIL=/var/spool/mail/daniil
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.V72SN3
+ALACRITTY_LOG=/tmp/Alacritty-32410.log
+DEBUGINFOD_URLS=https://debuginfod.archlinux.org
+MOTD_SHOWN=pam
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure
+SYSTEMD_EXEC_PID=2723
+BROWSER=firefox
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+GIO_LAUNCHED_DESKTOP_FILE_PID=32410
+LANG=ru_RU.UTF-8
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+XMODIFIERS=@im=ibus
+QT_IM_MODULES=wayland;ibus
+SHELL=/bin/fish
+LOGNAME=daniil
+MANAGERPID=2437
+ALACRITTY_SOCKET=/run/user/1000/Alacritty-wayland-0-32410.sock
+XDG_SESSION_DESKTOP=gnome
+USER=daniil
+LC_ADDRESS=ru_RU.UTF-8
+LC_NAME=ru_RU.UTF-8
+HOME=/home/daniil
+GDM_LANG=ru_RU.UTF-8
+_tide_pad= 
+PATH=/home/daniil/.bun/bin:/home/daniil/.bun/bin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+BUN_INSTALL=/home/daniil/.bun
+ALACRITTY_WINDOW_ID=93937926555360
+INVOCATION_ID=2b6a9bb3bf9d48129951ed1d3f8a1290
+XDG_MENU_PREFIX=gnome-
+PWD=/home/daniil/Лабы/IU7-OS/lab_sockets/lab_03/mt
+XDG_RUNTIME_DIR=/run/user/1000
+EDITOR=nano
+XDG_SESSION_CLASS=user
+USERNAME=daniil
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=
+MANAGERPIDFDID=2438
+DISPLAY=:0
+_tide_location_color=[38;2;0;0;0m
+LC_IDENTIFICATION=ru_RU.UTF-8
+WAYLAND_DISPLAY=wayland-0
+LC_TIME=ru_RU.UTF-8
+LC_TELEPHONE=ru_RU.UTF-8
+_tide_color_separator_same_color=[38;2;148;148;148m
+WINDOWID=93937926555360
+JOURNAL_STREAM=9:19130
+XDG_CURRENT_DESKTOP=GNOME
+LC_MONETARY=ru_RU.UTF-8
+LC_PAPER=ru_RU.UTF-8
+SSH_AUTH_SOCK=/run/user/1000/gcr/ssh
+TERM=xterm-256color
+COLORTERM=truecolor
+QT_IM_MODULE=ibus
+QT_QPA_PLATFORM=wayland
+DESKTOP_SESSION=gnome
+
+
+[Process Stat]
+1. PID: 41246
+2. Command: (server)
+3. State: S
+4. PPID: 32430
+5. PGRP: 41246
+6. Session: 32430
+7. TTY_NR: 34821
+8. Tpgid: 41246
+9. Flags: 4194304
+10. Minflt: 463
+11. Cminflt: 0
+12. Majflt: 0
+13. Cmajflt: 0
+14. Utime: 0
+15. Stime: 0
+16. Cutime: 0
+17. Cstime: 0
+18. Priority: 20
+19. Nice: 0
+20. Num Threads: 8
+21. Starttime: 1115915
+22. Vsize: 62799872
+23. Rss: 685
+24. Rsslim: 9223372036854775807
+25. Startcode: 94573961773056 (5603b7658000)
+26. Endcode: 94573961775769 (5603b7658a99)
+27. Startstack: 140732953893360 (7ffef1b999f0)
+28. Kstkesp: 0
+29. Kstkeip: 0
+30. Signal: 0
+31. Blocked: 0
+32. Sigignore: 0
+33. Sigcatch: 2
+34. Wchan: 0
+35. Nswap: 0
+36. Cnswap: 0
+37. Exit_signal: 17
+38. Processor: 0
+39. Rt_priority: 0
+40. Policy: 0
+41. Delayacct_blkio_ticks: 0
+42. Guest_time: 0
+43. Cguest_time: 0
+44. Start_data: 94573961784784 (5603b765add0)
+45. End_data: 94573961785660 (5603b765b13c) 
+46. Start_brk: 94574317776896 (5603cc9db000)
+47. Arg_start: 140732953897106 (7FFEF1B9A892)
+48. Arg_end: 140732953897115 (7FFEF1B9A89B)
+49. Env_start: 140732953897115 (7FFEF1B9A89B)
+50. Env_end: 140732953898991 (7FFEF1B9AFEF)
+51. Exit_code: 0
+
+[Command Line Arguments]
+./server
+
+
+[File Descriptors]:
+.
+..
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+[Current Working Directory]: /home/daniil/Лабы/IU7-OS/lab_sockets/lab_03/mt
+
+[Executable Path]: /home/daniil/Лабы/IU7-OS/lab_sockets/lab_03/mt/server
+
+[Root Directory]: /
+
+[I/O Statistics]
+rchar: 4260
+wchar: 609
+syscr: 8
+syscw: 19
+read_bytes: 0
+write_bytes: 0
+cancelled_write_bytes: 0
+
+
+[Process Name]
+server
+
+
+[Task Subdirectory]:
+.
+..
+41246
+41610
+41618
+41642
+41656
+41664
+41679
+41683
+
+[Memory Map]
+    1  5603b7657000-5603b7658000 r--p 00000000 103:05 3057542                   /home/daniil/Лабы/IU7-OS/lab_sockets/lab_03/mt/server
+    1  5603b7658000-5603b7659000 r-xp 00001000 103:05 3057542                   /home/daniil/Лабы/IU7-OS/lab_sockets/lab_03/mt/server
+    1  5603b7659000-5603b765a000 r--p 00002000 103:05 3057542                   /home/daniil/Лабы/IU7-OS/lab_sockets/lab_03/mt/server
+    1  5603b765a000-5603b765b000 r--p 00002000 103:05 3057542                   /home/daniil/Лабы/IU7-OS/lab_sockets/lab_03/mt/server
+    1  5603b765b000-5603b765c000 rw-p 00003000 103:05 3057542                   /home/daniil/Лабы/IU7-OS/lab_sockets/lab_03/mt/server
+   33  5603cc9db000-5603cc9fc000 rw-p 00000000 00:00 0                          [heap]
+   50  7f0e40a9f000-7f0e40ad1000 rw-p 00000000 00:00 0 
+ 2049  7f0e40ad1000-7f0e412d2000 rw-p 00000000 00:00 0 
+   50  7f0e412d2000-7f0e41304000 rw-p 00000000 00:00 0 
+ 2049  7f0e41304000-7f0e41b05000 rw-p 00000000 00:00 0 
+   50  7f0e41b05000-7f0e41b37000 rw-p 00000000 00:00 0 
+ 2049  7f0e41b37000-7f0e42338000 rw-p 00000000 00:00 0 
+   50  7f0e42338000-7f0e4236a000 rw-p 00000000 00:00 0 
+ 2049  7f0e4236a000-7f0e42b6b000 rw-p 00000000 00:00 0 
+   50  7f0e42b6b000-7f0e42b9d000 rw-p 00000000 00:00 0 
+ 2049  7f0e42b9d000-7f0e4339e000 rw-p 00000000 00:00 0 
+   40  7f0e4339e000-7f0e433c6000 rw-p 00000000 00:00 0 
+ 4098  7f0e433c6000-7f0e443c8000 rw-p 00000000 00:00 0 
+    3  7f0e443c8000-7f0e443cb000 rw-p 00000000 00:00 0 
+   36  7f0e443cb000-7f0e443ef000 r--p 00000000 103:05 9702346                   /usr/lib/libc.so.6
+  369  7f0e443ef000-7f0e44560000 r-xp 00024000 103:05 9702346                   /usr/lib/libc.so.6
+   78  7f0e44560000-7f0e445ae000 r--p 00195000 103:05 9702346                   /usr/lib/libc.so.6
+    4  7f0e445ae000-7f0e445b2000 r--p 001e2000 103:05 9702346                   /usr/lib/libc.so.6
+    2  7f0e445b2000-7f0e445b4000 rw-p 001e6000 103:05 9702346                   /usr/lib/libc.so.6
+   11  7f0e445b4000-7f0e445bf000 rw-p 00000000 00:00 0 
+   59  7f0e445bf000-7f0e445fa000 rw-p 00000000 00:00 0 
+    4  7f0e445fa000-7f0e445fe000 r--p 00000000 00:00 0                          [vvar]
+    2  7f0e445fe000-7f0e44600000 r--p 00000000 00:00 0                          [vvar_vclock]
+    2  7f0e44600000-7f0e44602000 r-xp 00000000 00:00 0                          [vdso]
+    1  7f0e44602000-7f0e44603000 r--p 00000000 103:05 9702336                   /usr/lib/ld-linux-x86-64.so.2
+   42  7f0e44603000-7f0e4462d000 r-xp 00001000 103:05 9702336                   /usr/lib/ld-linux-x86-64.so.2
+   11  7f0e4462d000-7f0e44638000 r--p 0002b000 103:05 9702336                   /usr/lib/ld-linux-x86-64.so.2
+    2  7f0e44638000-7f0e4463a000 r--p 00036000 103:05 9702336                   /usr/lib/ld-linux-x86-64.so.2
+    1  7f0e4463a000-7f0e4463b000 rw-p 00038000 103:05 9702336                   /usr/lib/ld-linux-x86-64.so.2
+    1  7f0e4463b000-7f0e4463c000 rw-p 00000000 00:00 0 
+   33  7ffef1b7a000-7ffef1b9b000 rw-p 00000000 00:00 0                          [stack]
+    1  ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+Total pages: 15332
+Total vsize: 62799872
